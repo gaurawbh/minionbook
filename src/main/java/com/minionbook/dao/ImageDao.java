@@ -16,7 +16,9 @@ public class ImageDao {
 
     public ImageDao(DataSource dataSource) {
         jdbcTemplate = new JdbcTemplate(dataSource);
+        //I am goimng to develop new UI
     }
+    //imagedao for minionbook
 
     public int insertRecords(String name, MultipartFile photo) throws IOException {
 
